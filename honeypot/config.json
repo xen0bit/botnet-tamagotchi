@@ -1,27 +1,30 @@
-[
-    {
-        "port": 21,
-        "keywords": [
-            "ftp",
-            "telnet"
-        ]
-    },
-    {
-        "port": 22,
-        "keywords": [
-            "ssh"
-        ]
-    },
-    {
-        "port": 139,
-        "keywords": [
-            "smb"
-        ]
-    },
-    {
-        "port": 80,
-        "keywords": [
-            "http"
-        ]
-    }
-]
+{
+    "collector": "http://localhost:8080",
+    "listeners": [
+        {
+            "port": 21,
+            "keywords": [
+                "ftp",
+                "telnet"
+            ]
+        },
+        {
+            "port": 22,
+            "keywords": [
+                "ssh"
+            ]
+        },
+        {
+            "port": 139,
+            "keywords": [
+                "smb"
+            ]
+        },
+        {
+            "port": 80,
+            "keywords": [
+                "http"
+            ]
+        }
+    ]
+}
